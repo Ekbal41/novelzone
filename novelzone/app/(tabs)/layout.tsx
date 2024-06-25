@@ -11,8 +11,8 @@ export default function RootLayout({
       <TopNav />
       <div
         className="
-      mx-auto flex  max-w-screen-xl flex-grow
-      items-center gap-8 px-4 sm:px-6 lg:px-8"
+      mx-auto w-100  
+      px-4 sm:px-6 lg:px-8"
       >
         {children}
       </div>

@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={inter.className}
+        style={{
+          minWidth: 300,
+        }}
+      >
         <div className="bg-background h-screen">{children}</div>
       </body>
     </html>
